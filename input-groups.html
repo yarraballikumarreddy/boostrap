@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>  
+  <title>Bootstrap Alert Example</title>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="css/bootstrap.min.css"> 
+  <style>
+  .mgbtm-div {margin-bottom: 20%;}
+  .mgbtm-2per {margin: 2% 0 2% 0;}
+
+  </style> 
+</head>
+
+<body>
+<div class="container mgbtm-div">
+<h3>Adding text or buttons before, after, or on both sides of any text-based input box by using .input-group with an .input-group-addon or .input-group-btn</h3>  
+
+<div class="input-group mgbtm-2per">
+  <span class="input-group-addon">@</span>
+  <input type="text" class="form-control" placeholder="Username">
+</div>
+
+<div class="input-group mgbtm-2per">
+  <input type="text" class="form-control" placeholder="Recipient's username">
+  <span class="input-group-addon">@example.com</span>
+</div>
+
+<div class="input-group input-group-lg mgbtm-2per">
+  <span class="input-group-addon">$</span>
+  <input type="text" class="form-control">
+  <span class="input-group-addon">.00</span>
+</div>
+
+<div class="input-group mgbtm-2per">
+  <span class="input-group-addon">https://example.com/users/</span>
+  <input type="text" class="form-control">
+</div>
+
+<br>
+<br>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+      <input type="text" class="form-control" aria-label="...">
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type=" " aria-label="...">
+      </span>
+      <input type="text" class="form-control" aria-label="...">
+    </div>
+  </div>
+</div>
+
+
+<br>
+<br>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Go!</button>
+      </span>
+      <input type="text" class="form-control" placeholder="Search for...">
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search for...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Go!</button>
+      </span>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>     
+  
+</body> 
+</html>
